@@ -118,19 +118,18 @@ Each of these steps is detailed below.
 
 ### 5.2 Data Quality Checks
 
-* Detect missing values.
-* Identify duplicates.
-* Look for inconsistent values.
+* Detect missing values. **OK**
+* Identify duplicates. **OK**
+* Look for inconsistent values. **OK**
 
-Possible actions:
 
-* Remove duplicate rows. OK
-* Handle missing values using deletion or imputation. OK
-* Verify ranges and units for variables. OK
+* Remove duplicate rows. **OK**
+* Handle missing values using deletion or imputation. **OK**
+* Verify ranges and units for variables. **OK**
 
 ### 5.3 Encoding Categorical Variables
 
-* Convert `type` into numerical format when needed for modeling.
+* Convert `type` into numerical format when needed for modeling. **OK**
 
 ### 5.4 Feature Scaling
 
@@ -153,8 +152,8 @@ Split the dataset into training and testing subsets to evaluate generalization.
 
 ### 6.1 Descriptive Statistics
 
-* Mean, median, minimum, maximum, standard deviation.
-* Compare distributions across wine types.
+* Mean, median, minimum, maximum, standard deviation. **OK**
+* Compare distributions across wine types. 
 
 ### 6.2 Visual Exploration
 
@@ -165,16 +164,16 @@ Useful visualizations include:
 * Scatter plots of key feature relationships
 * Distribution comparisons between red and white wine
 
-### 6.3 Correlation Analysis
+### 6.3 Correlation Analysis **OK**
 
-* Compute correlation matrix.
+* Compute correlation matrix. **OK**
 * Investigate which features are associated with:
 
   * wine quality
   * type classification
 
 Important notes:
-Correlation indicates association, not causation.
+Correlation indicates association, not causation. **WARNING**
 
 ---
 
