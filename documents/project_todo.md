@@ -1,18 +1,42 @@
 
 # Wine Analysis, Classification, and Quality Prediction Project
 
+
 ## 1. Introduction
 
 This project focuses on exploring and modeling a wine dataset containing both physicochemical measurements and human quality ratings.
-
-The dataset includes attributes such as acidity, pH, alcohol percentage, sulfur dioxide levels, and more. Two main predictive tasks are considered:
+Two main predictive tasks are considered:
 
 1. **Classifying wine type** (red vs white).
 2. **Predicting wine quality** using regression.
 
 Beyond predictive modeling, the goal is to perform a complete end-to-end analysis: understanding the data, cleaning it, visualizing patterns, building models, interpreting results, and identifying potential improvements.
 
----
+## Chosen dataset 
+
+For this project, the **Wine Type Classification Dataset** was selected. This dataset combines two well-known wine datasets originally published in the UCI Machine Learning Repository: one for red wines and one for white wines. The combined version contains **6,497 samples** and **13 physicochemical attributes**, along with the wine type and quality score.
+
+
+### Variables Description
+
+The table below lists all variables included in the dataset, along with their meaning and measurement units when available.
+
+| Feature              | Description                                                | Unit                    |
+| -------------------- | ---------------------------------------------------------- | ----------------------- |
+| fixed acidity        | Non-volatile acids primarily responsible for total acidity | g/dm³ (tartaric acid)   |
+| volatile acidity     | Acetic acid content associated with vinegar taste          | g/dm³ (acetic acid)     |
+| citric acid          | Citric acid concentration contributing to freshness        | g/dm³                   |
+| residual sugar       | Remaining sugar after fermentation                         | g/dm³                   |
+| chlorides            | Salt content in wine                                       | g/dm³ (sodium chloride) |
+| free sulfur dioxide  | Free form of SO₂ preventing microbial growth               | mg/dm³                  |
+| total sulfur dioxide | Total concentration of SO₂ (bound + free)                  | mg/dm³                  |
+| density              | Density of wine relative to water                          | g/cm³                   |
+| pH                   | Acidity level (lower = more acidic)                        | — (dimensionless)       |
+| sulphates            | Potassium sulphate used as preservative                    | g/dm³                   |
+| alcohol              | Alcohol percentage by volume                               | % vol                   |
+| quality              | Sensory quality score typically rated 0–10                 | score                   |
+| type                 | Wine type (Red or White)                                   | categorical             |
+
 
 ## 2. Objectives
 
