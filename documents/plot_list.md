@@ -24,3 +24,7 @@ Use this file to describe all registered .png in the plots folder. (Only in engl
 - [corr_matrix](../plots/corr_matrix.png) : Correlation matrix for each numerical columns of the dataset. 
 
 - [corr_circle_2axes.png](../plots/corr_circle_2axes.png) : Correlation Circle for 2 mains components of PCA analysis, showing correlation between each features. 
+
+- [all_features_pairplot](../plots/all_features_pairplot.png) : Pair plot and distribution for all feature with Hue=Type (White/Red)
+
+

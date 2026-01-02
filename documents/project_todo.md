@@ -124,9 +124,9 @@ Each of these steps is detailed below.
 
 Possible actions:
 
-* Remove duplicate rows.
-* Handle missing values using deletion or imputation.
-* Verify ranges and units for variables.
+* Remove duplicate rows. OK
+* Handle missing values using deletion or imputation. OK
+* Verify ranges and units for variables. OK
 
 ### 5.3 Encoding Categorical Variables
 
